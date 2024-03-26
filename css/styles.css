@@ -1,11 +1,11 @@
 /* Importing a Google Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
 
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
+	font-family: "HankenGrotesk Regular",sans-serif;
 	background-color: #fffcf8;
 }
 
@@ -15,11 +15,17 @@ header {
 	background-color: #000060;
 }
 
+.header_landing_page {
+	font-family: "DMSerifDisplay Regular", serif;
+}
+
 /* Changing the background color for the navigation bar */
 
-.navbar {
-	background-color: #fff0e0;
-}
+.navbar { 
+	background-color: #FAF5E8;
+	font-family: "HankenGrotesk Regular", serif;
+	}
+
 
 /* Effect on social media buttons */
 
