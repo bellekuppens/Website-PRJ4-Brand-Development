@@ -5,7 +5,7 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: "HankenGrotesk Regular",sans-serif;
+	font-family: "HankenGrotesk Regular";
 	background-color: #fffcf8;
 }
 
@@ -16,16 +16,33 @@ header {
 }
 
 .header_landing_page {
-	font-family: "DMSerifDisplay Regular", serif;
+	font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lower_header_font{
+	font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar { 
 	background-color: #FAF5E8;
-	font-family: "HankenGrotesk Regular", serif;
+	font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	}
 
+.navbarfont {
+	font-fam: "HankenGrotesk Regular";
+	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+}
 
 /* Effect on social media buttons */
 
@@ -33,6 +50,9 @@ footer a:hover {
 	opacity: .5;
 }
 
+.footercolor{
+	background-color: #AAD576
+}
 /* Corporate navbar */
 
 #navbar-corporate a.active {
