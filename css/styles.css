@@ -44,6 +44,9 @@ header {
   	font-style: normal;
 }
 
+.search_button_color {
+	background-color: #AAD576;
+}
 /* Effect on social media buttons */
 
 footer a:hover {
