@@ -78,7 +78,7 @@ header {
 
 .search_button_color {
 	background-color: #AAD576;
-	border-color: #245500 !important;
+	border-color: #245500;
 	font-family: "DM Serif Display", serif;
  	font-weight: 400;
  	font-style: normal;
@@ -105,7 +105,7 @@ header {
 	margin-right: 12px;
 }
 
-		/*--- Begin of custom shape dividor CSS */
+		/*--- Begin of custom shape dividor 1 CSS */
 .custom-shape-divider-bottom-1711654182 {
     position: absolute;
     bottom: 0;
@@ -145,7 +145,7 @@ header {
 .card_style{
 	background-color: #D5F4AF;
 	text-align:right;
-	margin-top: 130px;
+	margin-top: 110px;
 	margin-right: 90px;
 	
 }
@@ -156,8 +156,8 @@ header {
 
 .card_header{
 	font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: normal;
+  	font-weight: 400;
+  	font-style: normal;
 	color: #102901;
 	font-size: 25px
 }
@@ -226,6 +226,49 @@ header {
 	margin-left: 80px;
 	margin-right: 50px;
 	
+}
+
+
+		/*--- End of custom shape dividor 1 CSS */
+
+	/*--- Begin of Campsites Carousel CSS */
+
+.campsites_heading{
+	text-align: center;
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #102901;
+	font-size: 80px
+}
+
+
+.carousel_style{
+	margin-top: 100px;
+}
+
+		/*--- Begin of custom shape dividor 2 CSS */
+
+.custom-shape-divider-top-1711666241 {
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+	margin-top: 0;
+}
+
+.custom-shape-divider-top-1711666241 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 149px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1711666241 .shape-fill {
+    fill: #102901;
 }
 
 
