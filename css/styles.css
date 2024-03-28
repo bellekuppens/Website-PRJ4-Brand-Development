@@ -9,7 +9,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	margin: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 	min-height: 100vh;
 	padding-bottom: 0rem;
 }
@@ -21,7 +22,7 @@ html{
 
 
 header {
-	background-color: #000060;
+	background-color: #102901;
 }
 
 
@@ -32,7 +33,7 @@ header {
 /* ----------HOME PAGE---------- */
 
 
-/* -----Background Colors----- */
+	/* -----Background Colors----- */
 
 .color1{
 	background-color: #102901;
@@ -43,7 +44,7 @@ header {
 }
 
 .color3{
-	background-color:blueviolet;
+	background-color:#FAF5E8;
 }
 
 .color4{
@@ -58,17 +59,7 @@ header {
 	background-color:crimson;
 }
 
-
-/* -----Carousel/Main Picture CSS----- */
-
-.carousel_landing_page{
-	padding-left: 0rem;
-	padding-right: 0rem;
-	column-fill: 100%;
-}
-
-
-/* -----Navbar CSS----- */
+	/* -----Navbar CSS----- */
 
 .navbar { 
 	background-color: #FAF5E8;
@@ -96,7 +87,87 @@ header {
 	font-weight: bold;
 }
 
-/* -----Footer CSS----- */
+	/* -----Carousel/Main Picture CSS----- */
+
+.carousel_landing_page{
+	padding-left: 0rem;
+	padding-right: 0rem;
+	column-fill: 100%;
+}
+
+		/*--- Begin of custom shape dividor CSS */
+.custom-shape-divider-bottom-1711654182 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1711654182 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 94px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1711654182 .shape-fill {
+    fill: #FAF5E8;
+}
+		/*--- End of custom shape dividor CSS */
+
+	/* -----Travelstory Quote CSS----- */
+.quote_image{
+	text-align: center;
+	margin-top: 80px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	outline: double;
+	outline-width: 10px;
+	outline-color: #73A941;
+}
+
+.card_style{
+	background-color: #D5F4AF;
+	text-align:right;
+	margin-top: 130px;
+	margin-right: 90px;
+	
+}
+
+.quote_card {
+	text-align: center;
+}
+
+.card_header{
+	font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+	color: #102901;
+	font-size: 25px
+}
+
+.card_content{
+	font-family: "HankenGrotesk Regular", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+.quote_name{
+	font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+	padding-top: 10px;
+	font-size: 40px;
+	color: #245500;
+}
+
+
+	/* -----Footer CSS----- */
 
 footer a:hover {
 	opacity: .5;
@@ -251,7 +322,7 @@ footer a:hover {
 	padding-top: 10px;
 }
 
-/* Hero Section shadow */
+	/* Hero Section shadow */
 
 .white-shadow {
 	text-shadow: -.01em -.01em .01em white,
