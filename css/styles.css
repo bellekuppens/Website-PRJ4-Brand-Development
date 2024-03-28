@@ -1,8 +1,7 @@
-/* Importing a Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
 
-/* Changing the main font and background colour */
+/* ----------GENERAL ITEMS---------- */
 
 body {
 	font-family: "HankenGrotesk Regular";
@@ -19,14 +18,24 @@ html{
 	height: 100%;
 	
 }
-/* Changing the background colour for the header */
+
 
 header {
 	background-color: #000060;
 }
 
+
+
+
+
+
+/* ----------HOME PAGE---------- */
+
+
+/* -----Background Colors----- */
+
 .color1{
-	background-color: aqua;
+	background-color: #102901;
 }
 
 .color2{
@@ -50,37 +59,16 @@ header {
 }
 
 
+/* -----Carousel/Main Picture CSS----- */
 
-
-
-
-
-.header_landing_page {
-	font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.landing_page_button {
-	background-color: #245500;
-	color: #FAF5E8;
-}
-.lower_header_font{
-	font-family: "Sacramento", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.carousel_landingpage{
-	width: 1440px;
-	height: 710px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto
+.carousel_landing_page{
+	padding-left: 0rem;
+	padding-right: 0rem;
+	column-fill: 100%;
 }
 
 
-/* Changing the background color for the navigation bar */
+/* -----Navbar CSS----- */
 
 .navbar { 
 	background-color: #FAF5E8;
@@ -91,7 +79,7 @@ header {
 	}
 
 .navbarfont {
-	font-fam: "HankenGrotesk Regular";
+	font-family: "HankenGrotesk Regular", sans-serif;
 	font-optical-sizing: auto;
   	font-weight: 400;
   	font-style: normal;
@@ -102,7 +90,13 @@ header {
 	border-color: #245500 !important;
 
 }
-/* Effect on social media buttons */
+
+#navbar-corporate a.active {
+	color: #800000;
+	font-weight: bold;
+}
+
+/* -----Footer CSS----- */
 
 footer a:hover {
 	opacity: .5;
@@ -125,14 +119,14 @@ footer a:hover {
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 0rem;    
 }
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;            /* Footer height */
+  height: 2.5rem;            
 }
 
 
@@ -235,18 +229,26 @@ footer a:hover {
 	text-align-last: center;
 }
 
+.footer_heading{
+	font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+	color: #102901;
+}
+
+.footer_list{
+	font-family: "HankenGrotesk Regular", sans-serif;
+	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #245500;
+}
 
 .lower_heading_footer{
 	font-family: "Sacramento", cursive;
   font-weight: 400;
   font-style: normal;
 	padding-top: 10px;
-}
-/* Corporate navbar */
-
-#navbar-corporate a.active {
-	color: #800000;
-	font-weight: bold;
 }
 
 /* Hero Section shadow */
