@@ -219,6 +219,11 @@ header {
 	background-color: #102901;
 }
 
+.regular_divider_3{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 .destinations_heading{
 	font-family: "DM Serif Display", serif;
   	font-weight: 400;
