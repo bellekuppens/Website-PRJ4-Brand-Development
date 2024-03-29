@@ -190,6 +190,40 @@ header {
 
 /*-----Destination Cards CSS----- */
 
+.custom-shape-divider-bottom-1711668574 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1711668574 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 83px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1711668574 .shape-fill {
+    fill: #102901;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .card_button{
 	font-family: "DM Serif Display", serif;
   	font-weight: 400;
@@ -233,7 +267,7 @@ header {
 
 	/*--- Begin of Campsites Carousel CSS */
 
-.campsites_heading{
+.campsites_heading, .destinations_heading{
 	text-align: center;
 	font-family: "DM Serif Display", serif;
   	font-weight: 400;
