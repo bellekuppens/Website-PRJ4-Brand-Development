@@ -1,7 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
 
-/* ----------GENERAL ITEMS---------- */
+
+/* ----------HOME PAGE---------- */
+
+
+	/* -----General items----- */
 
 body {
 	font-family: "HankenGrotesk Regular";
@@ -24,13 +28,6 @@ html{
 header {
 	background-color: #102901;
 }
-
-
-
-
-
-
-/* ----------HOME PAGE---------- */
 
 
 	/* -----Background Colors----- */
@@ -105,7 +102,7 @@ header {
 	margin-right: 12px;
 }
 
-		/*--- Begin of custom shape dividor 1 CSS */
+		/*--- Custom shape dividor 1 (beige) CSS */
 .custom-shape-divider-bottom-1711654182 {
     position: absolute;
     bottom: 0;
@@ -190,6 +187,34 @@ header {
 
 /*-----Destination Cards CSS----- */
 
+/*-----Custom shape divider 2 (beige)----*/
+
+.custom-shape-divider-top-1711666241_2 .shape-fill {
+    fill: #FAF5E8;
+}
+
+.custom-shape-divider-top-1711722094_2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711722094_2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1711722094_2 .shape-fill {
+    fill: #FAF5E8;
+}
+
+/*--- End of Custom shape dividor 2 (beige) CSS */
+
 .regular_divider_2{
 	background-color: #102901;
 }
@@ -203,38 +228,14 @@ header {
 	font-size: 80px
 }
 
-
-
-.custom-shape-divider-top-1711720538 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+.destinations_button{
+	margin-bottom: 100px;
+	background-color: #6EDB0A;
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #102901;
 }
-
-.custom-shape-divider-top-1711720538 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
-}
-
-.custom-shape-divider-top-1711720538 .shape-fill {
-    fill: #FAF5E8;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 .card_button{
@@ -276,7 +277,7 @@ header {
 }
 
 
-	/*--- Begin of Campsites Carousel CSS */
+	/*--- Campsites Carousel CSS */
 
 .campsites_heading{
 	text-align: center;
@@ -287,12 +288,40 @@ header {
 	font-size: 80px
 }
 
-
-.carousel_style{
-	margin-top: 100px;
+.campsites_button{
+	margin-bottom: 80px;
+	background-color: #6EDB0A;
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #102901;
 }
 
-		/*--- Begin of custom shape dividor 2 CSS */
+
+.carousel_style{
+	margin-top: 40px;
+}
+
+.carousel_campsites_heading{
+	text-align: center;
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #FAF5E8;
+	font-size: 80px;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+.carousel_campsite_text{
+	font-family: "HankenGrotesk Regular", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	text-shadow: 2px 2px 4px black;
+}
+
+		/*--- Custom shape dividor 3 (dark green) CSS */
 
 .custom-shape-divider-top-1711666241 {
     position: absolute;
@@ -315,6 +344,8 @@ header {
 .custom-shape-divider-top-1711666241 .shape-fill {
     fill: #102901;
 }
+
+
 
 
 	/* -----Footer CSS----- */
