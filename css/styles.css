@@ -190,26 +190,39 @@ header {
 
 /*-----Destination Cards CSS----- */
 
-.custom-shape-divider-bottom-1711668574 {
+.regular_divider_2{
+	background-color: #102901;
+}
+
+.destinations_heading{
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #FAF5E8;
+	text-align: center;
+	font-size: 80px
+}
+
+
+
+.custom-shape-divider-top-1711720538 {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1711668574 svg {
+.custom-shape-divider-top-1711720538 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 83px;
-    transform: rotateY(180deg);
+    height: 150px;
 }
 
-.custom-shape-divider-bottom-1711668574 .shape-fill {
-    fill: #102901;
+.custom-shape-divider-top-1711720538 .shape-fill {
+    fill: #FAF5E8;
 }
 
 
@@ -263,11 +276,9 @@ header {
 }
 
 
-		/*--- End of custom shape dividor 1 CSS */
-
 	/*--- Begin of Campsites Carousel CSS */
 
-.campsites_heading, .destinations_heading{
+.campsites_heading{
 	text-align: center;
 	font-family: "DM Serif Display", serif;
   	font-weight: 400;
