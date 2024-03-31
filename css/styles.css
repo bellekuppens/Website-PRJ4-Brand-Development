@@ -150,6 +150,8 @@ header {
 	outline: double;
 	outline-width: 10px;
 	outline-color: #73A941;
+	width: 500px;
+	height: 400px;
 }
 
 .card_style{
