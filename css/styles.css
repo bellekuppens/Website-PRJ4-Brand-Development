@@ -115,6 +115,7 @@ header {
 }
 
 		/*--- Custom shape dividor 1 (beige) CSS */
+
 .custom-shape-divider-bottom-1711654182 {
     position: absolute;
     bottom: 0;
@@ -363,27 +364,58 @@ header {
 }
 
 
-/*--- Custom shape divider 4 (beige) CSS */
-.custom-shape-divider-top-1711911083 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+/*--- Forum Cards CSS---*/
+
+.card_style_forum{ 
+background-color: #FAF5E8;
+	text-align:center;
+	margin-top: 50px;
+	margin-right: 90px;
+	margin-left: 90px;
+	outline-color: #102901;
+	outline-style: dotted;
+	outline-width: 20px;
+	
 }
 
-.custom-shape-divider-top-1711911083 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 149px;
+.quote_card_forum {
+	text-align: center;
 }
 
-.custom-shape-divider-top-1711911083 .shape-fill {
-    fill: #FAF5E8;
+.card_header_forum{
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #102901;
+	font-size: 45px
 }
+
+.card_content_forum{
+	font-family: "HankenGrotesk Regular", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.quote_name_forum{
+	font-family: "Sacramento", cursive;
+  	font-weight: 400;
+  	font-style: normal;
+	padding-top: 10px;
+	font-size: 40px;
+	color: #245500;
+}
+
+.forum_buttons{
+	padding-right: 100px;
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #FAF5E8;
+	font-size: 20px;
+	text-align: center;
+}
+
 
 	/* -----Footer CSS----- */
 
