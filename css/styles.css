@@ -363,7 +363,27 @@ header {
 }
 
 
+/*--- Custom shape divider 4 (beige) CSS */
+.custom-shape-divider-top-1711911083 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
 
+.custom-shape-divider-top-1711911083 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 149px;
+}
+
+.custom-shape-divider-top-1711911083 .shape-fill {
+    fill: #FAF5E8;
+}
 
 	/* -----Footer CSS----- */
 
