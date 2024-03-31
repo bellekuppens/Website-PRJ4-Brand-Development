@@ -91,11 +91,23 @@ header {
 
 	/* -----Carousel/Main Picture CSS----- */
 
-.carousel_landing_page{
+.carousel_landing_page {
 	padding-left: 0rem;
 	padding-right: 0rem;
 	column-fill: 100%;
+	position: relative;
 }
+
+.membership_button_main_page {
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #FAF5E8;
+	font-size: 25px;
+	position:absolute;
+}
+
+
 
 .regular_divider{
 	margin-left: 12px;
