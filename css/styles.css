@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
 
 
-/* ----------HOME PAGE---------- */
+/* --------------------HOME PAGE-------------------- */
 
 
 	/* -----General items----- */
@@ -232,6 +232,8 @@ header {
 
 .regular_divider_2{
 	background-color: #102901;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .regular_divider_3{
@@ -448,7 +450,11 @@ background-color: #FAF5E8;
 	color: #102901;
 }
 
-/*----------DESTINATIONS PAGE---------*/
+
+
+
+
+/*--------------------DESTINATIONS PAGE-------------------*/
 
 .body_destinations{
 	font-family: "HankenGrotesk Regular";
@@ -556,16 +562,18 @@ background-color: #FAF5E8;
 
 .destination_maps{
 	text-align: center;
-	margin-top: 80px;
-	margin-left: 40px;
-	margin-bottom: 40px;
+	margin-top: 60px;
+	margin-left: 90px;
+	margin-bottom: 60px;
 	margin-right: 40px;
 	outline: dotted;
 	outline-width: 20px;
 	outline-color: #102901;
-	width: 500px;
-	height: 700px;
+	width: 400px;
+	height: 600px;
+	
 }
+
 
 .destination_maps_heading{
 	font-family: "DM Serif Display", serif;
@@ -586,7 +594,9 @@ background-color: #FAF5E8;
 	text-align: left;
 	margin-left: 100px;
 	margin-right: 100px;
+	margin-top: 200px;
 }
+
 
 /* -----FOOTER CSS----- */
 
