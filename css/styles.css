@@ -603,6 +603,30 @@ background-color: #FAF5E8;
 }
 
 
+/* --------------------TECHNICAL ADVICE PAGE-------------------- */
+
+.card_style_3{
+	background-color: #D5F4AF;
+	text-align:right;
+	margin-top: 90px;
+	margin-right: 90px;
+	
+}
+
+.quote_image_3{
+	text-align: center;
+	margin-top: 80px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	outline: double;
+	outline-width: 10px;
+	outline-color: #73A941;
+	width: 500px;
+	height: 450px;
+}
+
+
 /* -----FOOTER CSS----- */
 
 footer a:hover {
