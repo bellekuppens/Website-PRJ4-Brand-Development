@@ -768,6 +768,14 @@ background-color: #FAF5E8;
 	margin-bottom: 60px;
 }
 
+/*-----Accordion App CSS-----*/
+
+.accordion_heading{ 
+	background-color: #102901;
+	text-color: #FAF5E8;
+}
+
+
 
 /* -----FOOTER CSS----- */
 
