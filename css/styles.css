@@ -82,9 +82,10 @@ header {
  	font-weight: 400;
  	font-style: normal;
 	color: #102901;
-	font-size: 20px
+	font-size: 20px;
 
 }
+
 
 #navbar-corporate a.active {
 	color: #800000;
@@ -949,7 +950,7 @@ label {
   font-size: 24px;
 }
 
-.btn {
+.btn_2 {
   background-color: #1A8754;
   color: white;
   padding: 12px;
@@ -961,7 +962,7 @@ label {
   font-size: 17px;
 }
 
-.btn:hover {
+.btn_2:hover {
   background-color: #6EDB0A;
 }
 
