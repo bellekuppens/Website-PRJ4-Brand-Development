@@ -1,331 +1,792 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en" class="h-100">
+	
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
+<!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
-    <!-- Own Styles -->
+<!-- Stylesheet CSS -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Bootstrap Javascript -->
+<!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-    <title>PRJ4 Base Group Template &mdash; Corporate Information</title>
+    <title>Van•Voyage &mdash; Corporate Page</title>
 
-    <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
+<!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
-    <!-- End of Google Analytics code -->
-    
-  </head>
-  <body data-bs-spy="scroll" data-bs-target="#navbar-corporate" data-bs-smooth-scroll="true">
+<!-- End of Google Analytics code -->
+	  
+</head>
+	
+	<body class="h-100 d-flex flex-column">
+	<div id="page-container">
+		<div id="content-wrap">
 
-    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
-        </a>
+    <!-- Begin of Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbarfont">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+    	<img src="images/home/vanvoyagelogo.png" width="100" alt="Van Voyage Logo">
+    		</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        <span class="navbar-toggler-icon"></span>
+        	</button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		
+   		<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Explore
+              	</a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+    	<li><a class="dropdown-item" href="destinations.html">Destinations</a></li>
+        <li><a class="dropdown-item" href="comingsoonn.html">Campsites</a></li>
+        <li><a class="dropdown-item" href="comingsoon.html">Travel Stories</a></li>
+    		</ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="corporate.html">Corporate</a>
+		
+       	<li class="nav-item">
+        <a class="nav-link" href="technical.html">Technical Advice</a>
             </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- End of navigation bar -->
+		
+		<li class="nav-item">
+        <a class="nav-link" href="tipstricks.html">Tips &amp; Tricks</a>
+            </li>
+		
+	<li class="nav-item">
+    <a class="nav-link" href="forum.html">Forum</a>
+    	</li>
+		
+	<li class="nav-item">
+    <a class="nav-link" href="membership.html">Membership</a>
+    	</li>	
+		
+	<li class="nav-item">
+    <a class="nav-link" href="aboutus.html">About Us</a>
+    	</li>	
+		
+    <li class="nav-item">
+    <a class="nav-link" href="corporate.html">Corporate</a>
+    	</li>
+        	</ul>
+			 
+	<form class="d-flex" role="search">
+    <input class="form-control me-2" type="search" placeholder="Search......" aria-label="Search">
+		<button class="btn search_button_color btn-outline-success" type="submit">Search</button>
+    	</form>
+       		</div>
+      			</div>
+</nav>
+    <!-- End of Navbar -->
+	   
+	   
+<!-- Begin of Main -->
+	   
+	<!-- Begin of Carousel/Main picture -->
+	   <main class="h-100 d-flex flex-column">
 
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <h1 class="fw-light">Corporate information</h1>
-    </header>
-
-    <main class="container-fluid container-xl">
-      <div class="row">
-        <div class="col-sm-4 col-md-3 col-lg-2 py-4">
-          <nav id="navbar-corporate" class="nav sticky-sm-top flex-row flex-sm-column lh-1 justify-content-sm-between">
-            <a class="nav-link p-0 mb-sm-3 fs-5 me-2 me-sm-0 text-decoration-none" href="#general">General</a>
-            <a class="nav-link p-0 mb-sm-3 fs-5 me-2 me-sm-0 text-decoration-none" href="#content">Content</a>
-            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#production">Production</a>
-            <nav class="nav d-none d-sm-flex flex-column mb-2">
-              <a class="nav-link ms-3 p-0 mb-2" href="#production-1">Design Elements</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#production-2">Credits</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#production-3">Testing Report</a>
-            </nav>
-            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#marketing">Marketing</a>
-            <nav class="nav d-none d-sm-flex flex-column mb-2">
-              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-1">Context of campaign and promotional activities</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-2">Learning Points</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-3">Future Planning</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-4">Professionalism</a>
-            </nav>
-            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#management">Management</a>
-            <nav class="nav d-none d-sm-flex flex-column mb-2">
-              <a class="nav-link ms-3 p-0 mb-2" href="#management-1">Lean Canvas</a>
-              <a class="nav-link ms-3 p-0 mb-2" href="#management-2">Validation of Assumptions</a>
-            </nav>
-            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#appendix">Appendix</a>
-          </nav>    
-        </div>
-        <div class="col-sm-8 col-md-9 col-lg-10 py-sm-4">
-
-          <!-- Start General -->
-          <h2 id="general">General Information</h2>
-          <p>
-            This branded website is publicly available at
-            <a href="https://buas-media-interactive.github.io/">buas-media-interactive.github.io/my-website</a>
-            <em>(please change text <strong>and</strong> hyperlink destination)</em>
-          </p>
-          <p>
-            This website was created by&hellip; <em>(only students listed below will be graded!)</em>
-          </p>
-          <ol>
-            <li>Student (ID: 000000)</li>
-            <li>Student (ID: 000000)</li>
-          </ol>
-          <!-- End General -->
-
-          <!-- Start Content -->
-
-          <h2 id="content">Content</h2>
-          <p>Please clarify here the match between students and pieces of content. Make sure that you provide a <u>link</u> to the correct page within the website</p>
-          <table class="table table-bordered table-striped">
+<div class="container-fluid">
+		
+	<div class="row">
+	<div class="col-xxl-12 col-md-12 col-sm-12 color1">
+	<div id="carousel_main_page" class="carousel slide" data-bs-ride="carousel">
+  	<div class="carousel-inner carousel_landing_page">
+    <div class="carousel-item active">
+      <img src="images/corporate/main_picture_corporate.jpg" class="d-block w-100 carousel_landing_page" alt="Picture of Camper Van standing on a road with the text 'Technical Advices for Camper Van Travel by Van Voyage' on it">
+		
+	<!--Begin of custom shapedividor 1 (generated with ShapeDivider.App-->	
+		
+		
+	<div class="custom-shape-divider-bottom-1711654182"> 
+    	<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+   	 		</svg>
+		</div>
+		
+	<!--End of custom shapedividor 1 (generated with ShapeDivider.App-->	
+		
+		
+    	</div>
+  		</div>
+		</div>
+		</div>
+	</div>
+		
+	<!-- End of Carousel/Main picture -->
+		
+	<!--Begin of Travel Story Section-->
+		
+		<div class="container-fluid"> 
+		<div class="row">
+		<div class="col-xxl-12 col-md-12 col-sm-12 color3">
+			<h1> General Info</h1>
+			<p> During our process we stumbled upon a situatoin. One of our team members got in a car accident and therefore lost access to her laptop. On this laptop were all her interviews and recording. But due to the fact that she still couldn't access her laptop, we as a group are missing 4 interviews and 4 recording (2 problem interviews + recordings, 2 solution interviews + recording). The student in question (225096) already emailed the Content, Marketing and Management teachers about the matter in more details. We hope that you understand our inconvenience! </p>
+			
+			<h1> <b>Content </b></h1>
+			<h3> The table of all the copywriting pieces can be found at the bottom of the page</h3>
+			 <table class="table table-bordered table-striped">
             <thead>
               <tr class="bg-white">
                 <th scope="col">#</th>
                 <th scope="col">Student ID</th>
-                <th scope="col">Value</th>
-                <th scope="col">Name and link of content</th>
+                <th scope="col">Piece of Copywriting</th>
+                <th scope="col">Website Section</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th scope="row">1.</th>
-                <td>000000</td>
-                <td>Value</td>
+                <td>221155</td>
+                <td>Destination Cards</td>
                 <td>
-                  <a href="index.html">Content title</a>
+                  <a href="index.html">Lago di Como Card</a>
                 </td>
+				  
               </tr>
-              <tr>
+				<tr>
                 <th scope="row">2.</th>
-                <td></td>
-                <td></td>
+                <td>221155</td>
+                <td>Destination Cards</td>
                 <td>
-                  <a href="#"></a>
+                  <a href="index.html">Lapland Card</a>
                 </td>
               </tr>
-              <tr>
+				
+				<tr>
                 <th scope="row">3.</th>
-                <td></td>
-                <td></td>
+                <td>221155</td>
+                <td>Destination Cards</td>
                 <td>
-                  <a href="#"></a>
+                  <a href="index.html">Buljarica Card</a>
                 </td>
               </tr>
-              <tr>
+				
+				<tr>
                 <th scope="row">4.</th>
-                <td></td>
-                <td></td>
+                <td>221155</td>
+                <td>Technical Advice Introduction</td>
                 <td>
-                  <a href="#"></a>
+                  <a href="technical.html">Introduction</a>
                 </td>
               </tr>
+				
+				<tr>
+                <th scope="row">5.</th>
+                <td>221155</td>
+                <td>Technical Advice Cards</td>
+                <td>
+                  <a href="technical.html">See the signs</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">6.</th>
+                <td>221155</td>
+                <td>Technical Advice Cards</td>
+                <td>
+                  <a href="technical.html">Drive Legally</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">7.</th>
+                <td>221155</td>
+                <td>Technical Advice Cards</td>
+                <td>
+                  <a href="technical.html">Check, Double check</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">8.</th>
+                <td>221155</td>
+                <td>Technical Advice Cards</td>
+                <td>
+                  <a href="technical.html">Practice Makes Perfect</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">9.</th>
+                <td>221155</td>
+                <td>Technical Advice Cards</td>
+                <td>
+                  <a href="technical.html">Plan 'Till You Drop'</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">10.</th>
+                <td>221155</td>
+                <td>Technical Advice Cards</td>
+                <td>
+                  <a href="technical.html">Close 'Em All'</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">11.</th>
+                <td>221155</td>
+                <td>Tips &amp; Tricks Introduction</td>
+                <td>
+                  <a href="tipstricks.html">Introduction</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">12.</th>
+                <td>221155</td>
+                <td>Tips &amp; Tricks Cards</td>
+                <td>
+                  <a href="tipstricks.html">Collapsable Everything</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">13.</th>
+                <td>221155</td>
+                <td>Tips &amp; Tricks</td>
+                <td>
+                  <a href="tipstricks.html">Charging Up</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">14.</th>
+                <td>221155</td>
+                <td>Tips &amp; Tricks</td>
+                <td>
+                  <a href="tipstricks.html">Online Everywhere</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">15.</th>
+                <td>221155</td>
+                <td>Tips &amp; Tricks</td>
+                <td>
+                  <a href="tipstricks.html">No More Dirty Paws</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">16.</th>
+                <td>221155</td>
+                <td>Tips &amp; Tricks</td>
+                <td>
+                  <a href="tipstricks.html">Shine Bright Like A Recharagable Light</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">17.</th>
+                <td>221155</td>
+                <td>Membership Description</td>
+                <td>
+                  <a href="membership.html">Membership Description</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">18.</th>
+                <td>221155</td>
+                <td>Membership</td>
+                <td>
+                  <a href="membership.html">Receive an Exclusive Travel Book</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">19.</th>
+                <td>221155</td>
+                <td>About Us</td>
+                <td>
+                  <a href="aboutus.html">Nice To Meet You</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">20.</th>
+                <td>221428</td>
+                <td>Destinations Introduction</td>
+                <td>
+                  <a href="destinations.html">Introduction</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">21.</th>
+                <td>221428 and 221155</td>
+                <td>Normandy</td>
+                <td>
+                  <a href="destinations.html">The Coastal Beauty of France</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">22.</th>
+                <td>221428</td>
+                <td>Møns Klint</td>
+                <td>
+                  <a href="destinations.html">Beaches, Forests and Cliffs: Denmark has it all</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">23.</th>
+                <td>221428 and 221155</td>
+                <td>Spielberg</td>
+                <td>
+                  <a href="destinations.html">F1-Loving Mountains</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">24.</th>
+                <td>221428</td>
+                <td>Zeeland</td>
+                <td>
+                  <a href="destinations.html">Coastal Paradise of the Northern Seas</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">25.</th>
+                <td>221428</td>
+                <td>Edinburgh</td>
+                <td>
+                  <a href="destinations.html">Historic Scenery in the Scotisch Highlands</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">26.</th>
+                <td>221428</td>
+                <td>Lauterbrunnen</td>
+                <td>
+                  <a href="destinations.html">Serene Waters in Central Europe</a>
+                </td>
+              </tr>
+				
+				
+				<tr>
+                <th scope="row">27.</th>
+                <td>221428 and 221155</td>
+                <td>Buljarica</td>
+                <td>
+                  <a href="destinations.html">The Hidden Gem of the Adriatic Coast</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">28.</th>
+                <td>221428 and 221155</td>
+                <td>Lapland</td>
+                <td>
+                  <a href="destinations.html">Northen Lights and Santa Claus</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">29.</th>
+                <td>221428 and 221155</td>
+                <td>Lago di Como</td>
+                <td>
+                  <a href="destinations.html">Pizza, Pasta, and Mountains</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">30.</th>
+                <td>221428 and 221155</td>
+                <td>Rothenburg</td>
+                <td>
+                  <a href="destinations.html">The Romantic Road of Germany</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">31.</th>
+                <td>221428</td>
+                <td>App Recommendation Introduction</td>
+                <td>
+                  <a href="tipstricks.html">Introduction</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">32.</th>
+                <td>221428</td>
+                <td>Camper Contact</td>
+                <td>
+                  <a href="tipstricks.html">Camper Contact</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">33.</th>
+                <td>221428</td>
+                <td>Campy</td>
+                <td>
+                  <a href="tipstricks.html">Campy</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">34.</th>
+                <td>221428</td>
+                <td>Google Maps</td>
+                <td>
+                  <a href="tipstricks.html">Google Maps</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">35.</th>
+                <td>221428</td>
+                <td>Topo GPS</td>
+                <td>
+                  <a href="tipstricks.html">Topo GPS</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">36.</th>
+                <td>221428</td>
+                <td>Easy Park</td>
+                <td>
+                  <a href="tipstricks.html">Easy Park</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">37.</th>
+                <td>221428</td>
+                <td>Park 4 Night</td>
+                <td>
+                  <a href="tipstricks.html">Park 4 Night</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">38.</th>
+                <td>221428</td>
+                <td>Camper Stop</td>
+                <td>
+                  <a href="tipstricks.html">Camper Stop</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">39.</th>
+                <td>221428</td>
+                <td>Komoot</td>
+                <td>
+                  <a href="tipstricks.html">Komoot</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">40.</th>
+                <td>221428</td>
+                <td>All Trails</td>
+                <td>
+                  <a href="tipstricks.html">All Trails</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">41.</th>
+                <td>221428 and 221155 and 225096</td>
+                <td>Brand Vision</td>
+                <td>
+                  <a href="aboutus.html">Brand Vision</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">42.</th>
+                <td>221428 and 221155 and 225096</td>
+                <td>Brand Values</td>
+                <td>
+                  <a href="aboutus.html">Brand Values</a>
+                </td>
+              </tr>
+				
+				<tr>
+                <th scope="row">43.</th>
+                <td>221155</td>
+                <td>Brand Name</td>
+                <td>
+                  <a href="aboutus.html">Brand Name</a>
+                </td>
+              </tr>
+				
+				<br>
+				
+			<h2> Brand Persona</h2>	
+				
+				<img src="images/corporate/persona.jpg" alt="Brand Persona">
+				
+				<br><br><br><br><br><br>
+				
+			<h1> <b>Marketing</b> </h1>	
+				
+				<h2> Context of Campaign &amp; Promotional Activities </h2>
+<p>The Marketing Campaign of Van•Voyage is about spreading awareness of the brand among our target audience (40 to 60-year-old Camper Van users) and building a community where followers can interact with each other about destinations they went to, travel stories they might have, technical advice they might have or the latest tips and tricks they want to share with other Camper Van users. Therefore, our Marketing and Communication message is: Experience your best Camper Van adventure with Van • Voyage, a platform where you can find useful information, share experiences, and keep in touch with Camper Van users from around Europe. To be able to realize our Marketing and Communication desires, we are making use of two social media platforms: Facebook and Instagram. And we will also post in designated Facebook Groups about Camper Van traveling. Both our research and interviews brought up that those two platforms are the most used among people from our target audience. Facebook being the most used and after that Instagram (Kakulla, 2023; Methods+Mastery, 2023). Later on, we will be adjusting our Marketing Objectives based on this research. <br> We want to provide our target audience with a wide variety of posts to enjoy getting a good interpretation of which posts do well with our target audience and which don’t do as well. Since we are significantly younger than our target audience, we choose a wide variety of content to post to get a better understanding of what they like! Between Wednesday, March 6th, and Thursday 4th of April, we are first and foremost a Welcome Post to introduce our company. After that, we posted a random order of posts with the following content: Destination Posts (we praise a destination that is very beautiful and extremely suitable for Camper Van travel with the hope of inspiring our target audience to go there), Campsite Posts (we praise a campsite that is located in an area that is very nice for Camper Van travel and that doesn’t too much money), Travel Story Posts (we give the spotlight to a traveler who submitted their story via the form on our website, to inspire other Camper Van users and share experiences), Site Feature Posts (we promote a feature of our website such as the Forum page and Membership page), Reels (with top 5 compilations of the best recipes, under-the-radar destinations, technical advice, lifehacks, and travel routes), and finally Quote Posts (we found out from the interviews that people from our target audience really like to see quotes and repost them online, so we took this opportunity with both hands and made sure to post a wide variety of quotes on our socials). <br> For the creation of the captions of the posts we were inspired by ChatGPT but rewrote the parts to fit with our target audience. So, for example, we made the language easier to read and the vocabulary easy for beginning English speakers. Below is a snippet of the list of questions we asked ChatGPT to generate the captions.</p>
+
+<ul>
+<li> WELCOME POST: write a welcome message on facebook for camper van travelers between the age of 40 and 60 years old where you introduce a new company by using the information below: the name of the company is Van Voyage, and the vision is the following: “In a world where people trying to find their way through the immensity of life's demands feels overwhelming and lonely, we believe that the time we spend surrounded by friends and family is invaluable and should be care-free and filled with the joy of knowing that the people around us supports us, because only then are we able to live in the moment with the ones who really matter and create memorable experiences”</li>
+<li> TRAVEL STORY 1: Yulia and Robert: adapt the information below to fit for a facebook post about a travelstory: Yulia and Robert embarked on their honeymoon adventure through Germany, spanning from Würzburg to Füssen, a distance of approximately 350 kilometers. Along this route lies the enchanting and historically significant Romantic Road, meandering through some of Germany's most picturesque regions and charming villages. Originating in the 1950s to boost tourism in post-war Germany, this renowned scenic drive offers a glimpse into the rich cultural heritage and history of the Bavarian heartland. During their journey, Yulia and Robert encountered medieval villages, fairy-tale castles, and stunning natural landscapes, including the rugged Bavarian Alps and the scenic hills of the Franconian wine region.</li>
+<li> DESTINATION 1: France: write a small text for a facebook post about why you should go on a camper van travel to Normandy, France </li>
+<li> REEL 1: Recipes: write a small caption for a facebook post about camper van recipes which are provided in the reel linked to the caption</li>
+<li> SITE FEATURE 1: Tips and Tricks: write a small caption for a facebook post regarding the promotion of a website feature that will be on our website once it launches. The mentioned feature is: ' General Tips and Tricks page for Camper Van Travel"</li>
+<li> CAMPSITES 1: Kühlungsborn, Germany: write a story-like caption for a facebook post promoting the following campsite: Campingpark Kühlungsborn (Germany)</li>
+<li> QUOTE 1: Take the scenic route: write a caption for a facebook post centered around the following quote:
+take the scenic route</li>
+</ul>
+
+<br><br>
+
+By using ChatGPT as a source for inspiration, we gained a lot of insight into what AI generates as a good caption. We understood that we needed to write with a nice style to it that engages with our target audience and that every post needs to tell a story, even though sometimes it might be a small one. And on top of these nice and very useful insights into our Marketing Strategy, utilizing ChatGPT saved us a lot of time because we didn’t need to design a concept for a caption anymore.
+
+<br><br>
+
+Finally after designing our Marketing and Communication Plan we established the following Marketing Objectives:
+<ul>
+<li> 200 followers on Facebook by 5th of April</li>
+<li> 100 followers on Instagram by 5th of April</li>
+<li> Reach of 2000 on Facebook by 5th of April</li>
+<li> Reach of 1000 on Instagram by 5th of April</li>
+</ul>
+
+<br> <br>
+
+After analyzing our objectives after the Marketing Campaign was completed, we came to the following conclusions.
+
+<ul>
+<li> We did not reach our goal of 200 followers on Facebook. Like mentioned before our desire was to post in Facebook groups, but unfortunately due to the guidelines of those groups that were advocating against self-promotion, we respected those guidelines and didn’t post in the Facebook groups. By using hashtags such as #travel and #campervan we also intended to gain more followers along the campaign. But this unfortunately didn’t happen. In the end we reached an amount of 3 followers by April 5th 2024. </li>
+
+<li> We did not reach our goal of 100 followers on Instagram. Even though our Instagram page did a lot better in terms of followers, we still didn’t achieve our objective. But we discovered that the followers we did have were just other PRJ4 groups and their friends, and therefore not part of our target audience. So in the end we reached an amount of 30 followers by April 5th. </li>
+
+<li> We unfortunately also didn't reach our goal of a reach of 2000 people on Facebook. We suspect the reason might lay with the fact that we didn't have much interactions with our posts. Like mentioned before we couldn't post in Facebook groups and didn't have much responses from the hashtags. We suspect these elements might have influenced us not reaching our objective for Facebook. </li>
+
+<li> But we did get luckiy with Instagram. We did accomplish our objective of a 1000 reach exact. We expect the wide variety of content and use of hashtags might be the game changer here. </li>
+</ul>
+
+<br><br>
+
+<h2>Learning Points </h2>
+<p> During our project we stumbled upon the fact that gaining actual followers within our target audience is way harder then we ancitipated it to be, since al of our followers were people from our study, and therefore not the right audience. It might be interesting to see what would have happened if we published a paid advertisement of 5 euros and see if we got some followers from that. But unfortunately we didn't try that. And slowely increase the budget for the posts if needed. This will also help with our reach on Facebook since research showed that an average Facebook advertisement of 35 euros yields a reach between 3500 and 6000 (Facebook, 2024). So, we will definately implement these acknowledgements for the future. For our team communication had been the hardest. We didn't communicate enough which caused an uneven division of tasks within the project and group. Even though communicating is hard and takes a lot of effort to get the right outcome, we learned that it is also key to a group working efficiantly and effectively together. Especially in such a big project as PRJ4. And besides that, the fact that one of our team members got into a car accident which made her lose access to her laptop bothered us. Since the crash happened just a week before the deadline, we got a huge backlash from one laptop not being available. And unfortunately for us, all the interviews and recordings this team member made were on the laptop and therefore unreachable and unanalyzable for us. But what did work really well for us was the fact that eventually we managed to get all the elements together even though in the beginning of the project we were all very confused. We got back up and analyzed the overview to finally understand really well what was expected from us! </p>	
+				
+<h2> Future Planning</h2>	
+<p> For the future we would like to continue with making a wide variety of content like previously mentioned. We want to expand our types of content to include more types of posts for example special posts dedicated to Technical Advices and Tips and Tricks. But we want to switch to paid advertisements to see if that would make a difference in our reach and followers count. For Instagram we will obscale our objective to reaching 3000 people until the 5th of May. Since we want to gain more reach with the paid advertisements, so therefore not double the reach from the previous objective, but tripple it. We want to focus our objectives in the first periods after the 5th of April each per month. When we see in our objectives that they are easily reachable we will scale up the objectives even more and switch to two months and then three months until we reach 6 months. </p>	
+				
+				
+<h2> Professionalism </h2>	
+Unfortunately due to technical issues with Adobe we weren't able to post the actual posts we posted on facebook and Instagram on the website. But we highly advice to take a look at our social media pages via the links below. We apologize for the inconvenience.
+				
+				
+
+<ul>
+	<li><a href="https://www.facebook.com/vanvoyage.info">Facebook Page</a> </li>
+	<li><a href="https://www.instagram.com/vanvoyage.info">Instagram Page</a> </li>
+	
+	
+</ul>				
+						
+<p> We posted almost all of our content both on Facebook and Instagram and therefore will be listing only one version of it. Due to the fact that we can't copy a link to a single post on Facebook we will only be including the links to the Instagram posts. We posted most of our Instagram posts at 12:00 and most of our Facebook posts at 10:00 (Wordstream, 2023; Hootsuite, 2023) </p>				
+				
+					
+
+				
+<h1> Management</h1>
+		<h2> Test Protocol of the website</h2>
+				
+				
+<p> The link below leads to the onedrive where you can visit our audio recordings and interview findings from all the interviews and test protocol from our website </p>
+				<a href="https://edubuas-my.sharepoint.com/:f:/g/personal/221155_buas_nl/Ev_5TcuYIVdIjqcp8ziVRRMBZATf9TrrsmVCWZvqx4HRXA?e=SdlBfl		">Link to onedrive</a>
+			
+		
+<h2> Multiple versions of the Lean Canvas. The first picture is the first version, and the last picture is the last version.</h2>				
+<img src="images/corporate/management/1.jpg" alt="picture">	
+				
+<img src="images/corporate/management/2.jpg" alt="picture">
+				
+<img src="images/corporate/management/3.jpg" alt="picture">
+				
+				<img src="images/corporate/management/4.jpg" alt="picture">
+				
+<ul>Problem:
+<li>Feelings of uncertainty and inexperience when a technical issue occurs while traveling with a Campervan: 
+
+During the interviews, a problem that came up that the interviewee recognizes or has experienced themselves is that every now and then while traveling and something in the campervan isn’t working, be it a refrigerator that stops working or an electrical issue in the camper, at the time and place where you are it would be difficult to find the source of the problem and find someone that can repair it if you yourself don’t know how to do it. To remedy this problem, we have created a page on our website specifically designated for advice on technical issues that travellers might encounter while traveling and what to do when these issues occur. If the specific issue a member is dealing with is not yet on our technical advice page, they can always post their question on our forum page or ask us directly since we aim to offer our members 24/7 availability. </li>
+
+<li>The lack of information about suitable travel routes for Campervans:
+ 
+One of the most reoccurring problems that became known is that while traveling, campers usually use Google Maps to help them navigate, but that unfortunately this does have the significant downside that it only shows routes that are suitable for cars or vehicles with similar measurements. This becomes a problem when a camper finds themselves approaching a low tunnel or steep road for example. We aim to help solve this problem by having a page dedicated to Routes in our tips-and-tricks section of the website where we inform campers who are not yet aware of this issue and those that are of an alternative option to Google Maps. This being a software that they can purchase and install in their motorhome which allows them to enter the measurements of their campers and the software then calculates and shows them the best suitable routes for them to take. We also give other free alternatives in our must-have-apps page which is also in our tips-and tricks section on our website.</li>
+
+
+<li>The absence of a central hub for helpful insights regarding Campervan Travel: 
+From our interviews we gathered that there is a hope of information regarding campervan travel scattered throughout the internet. This can be seen as a problem in the sense that constantly searching and skimming different sites and blogs to find the suitable information or having to download multiple apps for every single need that arises while traveling with a campervan can become quite overwhelming. And for those that do not even know where to begin looking, the need for a central hub where they can find all the necessary and helpful insights regarding campervan travel is a welcoming prospect. That is why we decided to help solve this problem by marketing our brand as this central hub that offers campers these helpful insights for planning trips, what to bring with you when traveling, easy recipes for on the road, best campervan travel routes, and much more. These are not only provided by us but also their fellow campervan travellers who are part of our community. </li>
+
+
+<li>The absence of a central place where both experienced, intermediary, and beginner Campervan travelers can connect and help each other out by sharing experiences, tips, and stories: 
+
+From our interviews we gathered that there is a gap between the knowledge and services of campervan travel available between campervan users with different levels of experience; some feel that there is a lack of while others feel there is an overflow in information and services at their disposal. To close this gap, we decided to create a brand that is suitable and accessible for all campervan users and enthusiasts, regardless of their level of experience or background. We offer them a platform where these like-minded individuals can connect and support each other by sharing their experiences, knowledge, tips, and stories with each other either through our forum, social media, or organized events.</li>
+
+	</ul>	
+
+Solution:
+<p>Our solution for the problems we are focusing on is to create an online platform where campervan users, regardless of their level of experience or background, can support and connect with each other by sharing their stories, handy tips, tricks, and explore hidden gems and popular traveling destinations. Furthermore, we offer them a principal place where they can turn to for valuable information regarding campervan travel such as technical advice and suitable routes and handy alternatives. The benefit of creating such a platform is that it is an All-In-One platform. So instead of having to constantly search for information, download multiple unnecessary apps, or finding yourself stuck in a new and uncertain situation, our platform offers campervan users a place for both leisure and support where they can always turn to during their travels.</p>
+				
+Customer Segments:
+<ul>
+<li>	Geographical: 
+Netherlands 
+*mostly focused on reaching people in the Netherlands who like to travel throughout Europe</li>
+
+<li>Demographical: 
+40-to-60-year-olds, working class, Generation X</li>
+
+<li>Psychographical: 
+Interested in traveling and exploring the world without having the comfort of an all-inclusive resort where everything is done for you except the other way around</li>
+
+<li>Behavioral: 
+Open-minded and curious about new things regarding traveling with a Camper Van.</li>
+	
+	</ul>
+
+The characteristic of our ideal customer is a family man or woman based in the Netherlands between the ages of 40 to 60 years old with a campervan travel experience between 0 (beginner) to 10 years (experienced/expert). Their hobbies/ interests include traveling and exploring new horizons, hiking, cycling, cooking, gardening. They are a nature lover and value sustainability and strive to incorporate this in their everyday life. They lead a comfortable life but categorize themselves as more of a saver rather than a spender. When traveling they are not afraid to go back to basics and just DIY and camp out in a tent somewhere in nature rather than an all-inclusive resort where you don’t have to do anything other than just sit back and relax. They value familial time and like going on holidays with their family or close friends around three times a year. They are curious about the world and love learning new things, and eager to offer a helping hand when necessary. 
+				
+
+<h6>Unique Value Proposition:</h6>
+<p>Our brand offers an engaging community platform where like-minded individuals with a passion for traveling, freedom, and adventure can share their stories, tips and tricks regarding campervan travel, and the opportunity to connect and create unforgettable memories together. Our brand is not just a community page for campervan users – we are their trustworthy and reliable friend in campervan travel. Our brand and community are built upon the knowledge and experiences of campervan travellers. At its core, we are a general hub for campervan users by campervan users.</p>
+	
+Unfair Advantage:
+* A forum designed and dedicated to campervan users from all background and experiences where they have the unique opportunity to connect with each other and offer each other around the clock support when in need. Their contribution to our community helps us continuously improve and expand our website’s content according to the experiences and stories of these fellow travellers. 
+
+* A combination of both informative and leisurely content from Van•Voyage about the different elements of campervan travel such as technical issues, popular and hidden destinations, and handy-to-know information. Moreover, our forum, social media, and organized events offers our members the freedom to connect and share their stories with each other. This aspect allows our members to feel supported through all aspects of their travels. 
+				
+
+				
+				<h6>Channels:</h6>
+<p>Our Canvas has 3 main promotional channels. Advertisements at Campsites such as posters, flyers and billboards are catching our target audience directly, while they are on another campervan experience. Facebook groups are close to our target audience based on their age and social media preferences. Radio promotion is a great way for campervan people as a subject of the audience, since radio is exactly the thing people use while traveling with campervan.</p>
+
+Key Metrics:
+As Key Metrics we take Daily visitors to our website as the first important number (metrics) by which we can understand how many people visit our website and therefore understand engaging of the audience. The amount of our business members shows the amount of people involved in our company’s work. By looking at the number of subscriptions bought and downloads made, we can also track how many peiple decided to buy our additional material. The amount of followers on our social media channels represents engagement of the audience through social media by how many people followes our pages.
+
+	<h6>Cost Structure:</h6>
+<p>The structure of the costs firstly includes costs for ordering technical start-up development on the website, according to Faster Capital (n.d.), the cost of starting a tech startup can vary, but approximately is 5000€. Every month payments for domain name and wed hosting is ± 8,99 as Kinsta (n.d.) discusses the cost of domain names. Next fixed cost is a payment fpr software licenses, and in that case Duò (2023) provides insights into the pricing of domain names, so approximate cost would be 250€. Variable cost of website updates is 41,6€ counted with the help of Hoppe (2019) and their Business intelligence software costs and website maintenance costs are addressed by J. and S. (2024).. Our personal calculations of marketing promotions gave us approximate sum of 200€. Printing of the travel booklet is 200€, as Conquest Graphics (2018) discusses the cost of booklet printing.</p>			
+				
+		<h6>Revenue Streams</h6>
+Exclusive subscription for 5,99€ allows users to receive more needed and desired materials such as monthly updates on travel routes, and recommendations, together with Travel Guide Book. We also offer our subscribers organized information events, road trips and special/holiday events.
+		
+				
+	<h1> Production</h1>	
+				<p> Style Guide:</p>
+				
+				
+		<img src="images/corporate/production/1.jpg" alt="picture">
+				<img src="images/corporate/production/2.jpg" alt="picture">	
+				<img src="images/corporate/production/j_1.jpg" alt="picture">	
+				<img src="images/corporate/production/j_2.jpg" alt="picture">	
+				
+              
             </tbody>
           </table>
           
-          <!-- End Content, start Production -->
-          
-          <h2 id="production" class="mt-5">Production</h2>
-          <h4 id="production-1" class="mt-2">Design Elements</h4>
-          <p>Please provide a list of design elements alongside their justifications:</p>
-          <ul>
-            <li>
-              A colour scheme (with HTML colour codes, which must be consistent with your final website)
-              <em>&mdash; see the example below from the BUas brand book:</em>
-              <ul class="list-unstyled">
-                <li>
-                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #EE7622;"></span>
-                  #EE7622
-                  <em>The orange colour refers to the Dutch identity and the city of Breda (Oranjestad). Orange stands for&hellip;</em>
-                </li>
-                <li>
-                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #00406B;"></span>
-                  #00406B
-                  <em>Dark blue signifies&hellip;</em>
-                </li>
-              </ul>
-            </li>
-            <li>Font choices</li>
-            <li>User interface patterns (e.g. grids, carousels, menu organizations etc.)</li>
-            <li>The structure of the <strong>navigation and content</strong> (e.g. how content units are distributed across pages)</li>
-            <li>All these elements must be justified by referring to the theory <strong>and/or vocabulary</strong> of design</li>
-            <li>Please relate these elements to other units, for example:
-              <ul>
-                <li>How does website design fit the <strong>values and personality of the brand</strong>?</li>
-                <li>How does website design fit the <strong>marketing and communication strategy</strong>?</li>
-                <li>How does website design help showcase the <strong>unique value proposal of the product</strong>?</li>
-              </ul>
-            </li>
-          </ul>
-          <h4 id="production-2" class="mt-2">Credits</h4>
-          <p>Please provide links and/or credits for third-party elements including:</p>
-          <ul>
-            <li>HTML <strong>templates</strong> if these are different from this one (<a href="https://github.com/buas-media-interactive/prj4-group-template" target="_blank">buas-media-interactive/prj4-group-template</a>)</li>
-            <li>The source code for <strong>UX patterns</strong> other than the ones provided by the “Bootstrap” library (see <a href="https://getbootstrap.com/docs/5.2/" target="_blank">getbootstrap.com/docs</a> for a list of such patterns)</li>
-            <li><strong>Images</strong> that were not produced by students themselves, including when crediting is not mandatory (in other words, we ask you to credit Unsplash images)</li>
-          </ul>
-          <h4 id="production-3" class="mt-2">Testing Report</h4>
-          <p>Please write about&hellip;</p>
-          <ul>
-            <li>Your testing <strong>goals</strong> &ndash; in other words, what you are trying to learn about your website?</li>
-            <li>Your testing <strong>methods</strong>, which includes information about:
-              <ul>
-                <li>The test&rsquo;s <strong>participants</strong> (number, match with target audience, etc.)
-                <li>The test&rsquo;s <strong>setting</strong> (which material is used, is it done remotely, on campus, at home, etc.)
-                <li>The test&rsquo;s <strong>protocol</strong> (what instructions are given, how it is recorded, etc.)
-              </ul>
-            </li>
-            <li>Your testing <strong>results</strong>, which includes information about:
-              <ul>
-                <li>Positive and negative aspects of the UI/UX that have been identified, ranked by importance.</li>
-                <li>Improvements that have been implemented on the final website (or that would be implemented if doing so would be too complex)</li>
-              </ul>
-            </li>
-          </ul>
-
-          <!-- End Production, start Marketing -->
-
-          <h2 id="marketing" class="mt-5">Marketing</h2>
-          <h4 id="marketing-1" class="mt-2">Context of campaign and promotional activities</h4>
-          <p>Explain the context of the campaign is (What the campaign is about, what the message is, which promotional activities were executed). In addition, present the objectives as mentioned in the Communication & Media Plan.</p>
-          <p>Explain and justify the chosen channels/platforms used and show there is a solid connection to the objectives established in the Communication & Media Plan.</p>
-          <h4 id="marketing-2" class="mt-4">Learning Points</h4>
-          <p>Identify and justify your learning point (based on the Communication & Media Plan). What did you learn during the duration of the project concerning the campaign? What worked and what didn’t? What went as expected and what didn’t? What would you do differently? Reflect on the past work and describe what you learned.</p>
-          <h4 id="marketing-3" class="mt-4">Future Planning</h4>
-          <p>Reflection on what has been done and describe in detail what you would do if the project would continue.</p>
-          <p>Describe in detail your future recommendations if the campaign would be continued.</p>
-          <p>Detail and describe clearly the process of what your would do differently based on you experience on this project related to the marketing assignment.</p>
-          <h4 id="marketing-4" class="mt-4">Professionalism</h4>
-          <p>Present and organize below all social media/online activities of the campaign. Context and material are according to the brand style, image, and vision. Images on the site are of high-quality, readable, and properly designed.</p>
-          <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
-            <li class="m-2">
-              <a href="#"><!-- Please make a link to your socials instead -->
-                <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
-              </a>
-            </li>
-            <li class="m-2">
-              <a href="#"><!-- Please make a link to your socials instead -->
-                <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
-              </a>
-            </li>
-            <li class="m-2">
-              <a href="#"><!-- Please make a link to your socials instead -->
-                <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
-              </a>
-            </li>
-          </ul>
-        
-          <!-- End Marketing, start Management -->
-
-          <h2 id="management" class="mt-5">Management</h2>
-
-          <h4 id="management-1" class="mt-2">Lean Canvas</h4>
-
-          <p>Fill in at least 2 bullet points per building block and according to the rubrics.</p>
-
-          <p class="fw-bold">Problem</p>
-          <ul>
-            <li>List your top 3 problems you solve for your target group(s).</li>
-            <li>Describe briefly how the problems are solved now (existing alternatives).</li>
-          </ul>
-          <p class="fw-bold">Solution</p>
-          <ul>
-            <li>Outline the brand solution(s) you have for the above problem(s).</li>
-          </ul>
-          <p class="fw-bold">Customer segments</p>
-          <ul>
-            <li>List your target customers and/or users.</li>
-            <li>Describe briefly the characteristics of your ideal customer (early adopter, brand persona).</li>
-          </ul>
-          <p class="fw-bold">Unique value proposition</p>
-          <ul>
-            <li>With a single, clear compelling message, state why your brand idea is different and worth paying attention to.</li>
-            <li></li>
-          </ul>
-          <p class="fw-bold">Unfair advantage</p>
-          <ul>
-            <li>List the aspect(s) of your brand that cannot easily be copied, also called your sustainable competitive advantage(s).</li>
-          </ul>
-          <p class="fw-bold">Channels</p>
-          <ul>
-            <li>List your main path to customers.</li>
-            <li>How do you reach them? What channel(s) do you use.</li>
-          </ul>
-          <p class="fw-bold">Key metrics</p>
-          <ul>
-            <li>List the key numbers that tell you how your brand experience is doing.</li>
-            <li>For example amount of users, downloads, visitors, subscriptions, sales etc. Numbers you are able to measure.</li>
-          </ul>
-          <p class="fw-bold">Revenue streams</p>
-          <ul>
-            <li>List your sources of revenue: describe the revenue model and the (different) revenue stream(s).</li>
-          </ul>
-          <p class="fw-bold">Cost structure</p>
-          <ul>
-            <li>List your main costs: define the fixed and variable costs.</li>
-            <li>Calculate the cost per unit.</li>
-          </ul>
-          <p class="fw-bold">Services/products</p>
-          <ul>
-            <li>State what your product and/or service is and how this contributes to your unique value proposition.</li>
-            <li>Clarify the fit between the product/service developed and the brand identity/brand image.</li>
-          </ul>
-
-          <h4 id="management-2" class="mt-2">Validation of Assumptions</h4>
-          <p>Write a reflection on the choices made in creating choosing the trademark, including an analysis of the existing alternatives.</p>
-
-          <!-- End Management, start Appendix -->
-          
-
-          <h2 id="appendix" class="mt-5">Appendix</h2>
-
-          <p>
-            Please use the list below to provide links to evidence for all parts of your justication.
-            Please double-check all links before delivering the website.
-            Do not hesitate to refer to these numbers above.
-          </p>
-
-          <ol>
-            <li>
-              <a href="https://" target="_blank">Description of evidence #1</a>
-            </li>
-            <li>
-              <a href="https://" target="_blank">Description of evidence #2</a>
-            </li>
-            <li>
-              <a href="https://" target="_blank">Description of evidence #3</a>
-            </li>
-            <li>
-              <a href="https://" target="_blank">Description of evidence #4</a>
-            </li>
-            <li>
-              <a href="https://" target="_blank">Description of evidence #5</a>
-            </li>
-          </ol>
-          
+			
+			<br><br><br><br><br><br><br><br><br><br>
+			
+			
+			
+			
+			
+			
+			</div>
+			
+	
+			
+	<!--End of Divider 5-->
+		
+			</div>	
+	</div>
+	</div>
+</main>
+	   
+    <!-- End of main placeholder -->
+	  
+	 <!-- Begin of Footer -->  
+	<div class="footer-clean footer">
+<footer>
+	<div class="container">
+    <div class="row justify-content-center">
+    	
+	<div class="col-lg-4 col-md-12 item logo">
+        <img src="images/home/vanvoyagelogo.png" alt="Logo" width="200" height="100">
+    <h4 class="headings lower_heading_footer">Where Every Journey Begins</h4>
+    	</div>
+               
+	<div class="col-lg-4 col-md-6 item">
+	<h3 class="headings footer_heading">Informational Pages</h3>
+    	<ul>
+		<li class ="footer_list">Explore Europe via <b>"Explore"</b></li>
+			<li class ="footer_list">Learn about Destinations, Campsites and TravelStories <br><br></li>
+		<li class ="footer_list">Learn Technicalities via <b>"Technical Advice"</b></li>
+			<li class ="footer_list">Get helpful advice about technical elements of Camper Van travel <br><br> </li>
+        <li class ="footer_list">Get Handy via <b>"Tips &amp; Tricks"</b></li>
+			<li class ="footer_list">Read about life hacks that make traveling easier <br><br> </li>
+		<li class ="footer_list">Help Others via <b>"Forum"</b></li>
+			<li class ="footer_list">Contribute to the community, and share your stories <br><br> </li>
+		<li class ="footer_list">Become a Member via <b>"Membership"</b></li>
+			<li class ="footer_list">Receive personalized travel advice and more!</li>
+		  </ul>
+    	</div>
+                
+	<div class="col-lg-4 col-md-6 item">
+	<h3 class="headings footer_heading">About</h3>
+		<ul>
+			<li class ="footer_list">Get to know us!<br> Check out the <b>"About Us"</b> Page!</li>
+		<li class ="footer_list"><br><b>Breda</b></li>
+		<li class ="footer_list">Monseigneur Hopmansstraat 2</li>
+		<li class ="footer_list">4817 JS, <b>Netherlands</b><br><br></li>
+		<li class ="footer_list">+31 6 12345678</li>
+		<li class ="footer_list">info.vanvoyage@gmail.com</li>	
+		  </ul>
+		</div>
+		
+		
+		
+	<div class="col-lg-3 item.social">
+	<div class="social_media_icons_footer"><br><br><br>
+		<div class="footer_heading">
+		<h2> Contact us!<br> @vanvoyage.info</h2>
+			</div>
+		<div>
+		<a href="mailto:info.vanvoyage@gmail.com">
+			<img class="email_icon" src="images/icons/email.png" alt="Our Email" width="30" height="30"></a>
+		<a href="https://www.facebook.com/vanvoyage.info">
+			<img class="facebook_icon" src="images/icons/facebook.png" alt="Our Facebook" width="33" height="33"></a>
+		<a href="https://www.instagram.com/vanvoyage.info">
+			<img class="instagram_icon" src="images/icons/instagram.png" alt="Our Instagram" width="33" height="33"></a>
+			</div>
+		  </div>
+		<p class="copyright headings copyright_text">Van•Voyage ©️ 2024</p>
+		</div>
+                
+      		</div>
         </div>
-      </div>
-    </main>
-
-  </body>
+    </footer>
+</div>
+	  <!-- End of Footer --> 
+</div>
+</div>
+</body>	
 </html>
