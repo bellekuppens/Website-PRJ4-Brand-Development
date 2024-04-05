@@ -249,7 +249,7 @@ header {
   	font-weight: 400;
   	font-style: normal;
 	color: #FAF5E8;
-	font-size: 80px
+	font-size: 80px;
 }
 
 .destinations_button{
@@ -373,7 +373,7 @@ header {
 /*--- Forum Cards CSS---*/
 
 .card_style_forum{ 
-background-color: #FAF5E8;
+	background-color: #FAF5E8;
 	text-align:center;
 	margin-top: 50px;
 	margin-right: 90px;
@@ -772,11 +772,108 @@ background-color: #FAF5E8;
 	margin-bottom: 60px;
 }
 
-/*-----Accordion App CSS-----*/
 
-.accordion_heading{ 
-	background-color: #102901;
-	text-color: #FAF5E8;
+/* --------------------FORUM PAGE-------------------- */
+
+	/*-----Travelstory card CSS-----*/
+
+.quote_image_4{
+	text-align: center;
+	margin-top: 80px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	outline: double;
+	outline-width: 10px;
+	outline-color: #73A941;
+	width: 500px;
+	height: 530px;
+}
+
+.card_style_5{
+	background-color: #D5F4AF;
+	text-align:right;
+	margin-top: 170px;
+	margin-right: 90px;
+}
+
+.quote_name_3{
+	font-family: "Sacramento", cursive;
+  	font-weight: 400;
+  	font-style: normal;
+	padding-top: 10px;
+	font-size: 30px;
+	color: #245500;
+}
+
+	/*-----Forum CSS-----*/
+
+.forum_heading{
+	text-align: center;
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #FAF5E8;
+	font-size: 40px;
+}
+
+	/*-----Forum Posts CSS-----*/
+
+.card_style_forum_2{
+	background-color: #AAD576;
+	text-align:center;
+	margin-top: 50px;
+	margin-right: 90px;
+	margin-left: 90px;
+	outline-color: #102901;
+	outline-style: dotted;
+	outline-width: 20px;
+}
+
+	/*-----Submit form CSS----*/
+
+.forum_buttons_4{
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #FAF5E8;
+	font-size: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+.form_element{
+	background-color: #FAF5E8;
+}
+
+.form_content{
+	font-family: "HankenGrotesk Regular", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.form_header{
+	text-align: center;
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #102901;
+	font-size: 30px;
+}
+
+/* --------------------MEMBERSCHIP PAGE-------------------- */
+
+.membership_heading_2{
+	text-align: center;
+	font-family: "DM Serif Display", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #102901;
+	font-size: 80px;
 }
 
 
