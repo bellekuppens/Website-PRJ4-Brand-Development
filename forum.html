@@ -285,33 +285,29 @@
 		<div class="col-xxl-12 col-md-12 color6"><br><br><br>
 			
 			
-			<form class="row g-3">
-		  	<div class="col-md-6">
-			<label for="inputEmail4" class="form-label form_header">First Name</label>
-			<input type="email" class="form-control form_element form_content" id="inputEmail4" placeholder="Van">
-		  		</div>
-				
-		  <div class="col-md-6">
-			<label for="inputPassword4" class="form-label form_header">Last Name</label>
-			<input type="password" class="form-control form_element form_content" id="inputPassword4" placeholder="Voyage">
-		  	</div>
-				
-		  <div class="col-12">
-			<label for="inputAddress" class="form-label form_header">Email</label>
-			<input type="text" class="form-control form_element form_content" id="inputAddress" placeholder="info.vanvoyage@gmail.com">
-		  	</div>
-				
-		  <div class="mb-3">
-  			<label for="exampleFormControlTextarea1" class="form-label form_header">Comment</label>
-  			<textarea class="form-control form_element form_content" id="exampleFormControlTextarea1" rows="7" placeholder="Share Your Stories and Experiences With Us and The Community!"></textarea>
-			</div>
-				
-		 <div class="col-12">
-		<button type="submit" class="btn btn-success forum_buttons_4">Submit Your Story</button>
-		 	</div>
-			</form>
-		</div>
-	</div>
+			<div class="container_3">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 	
 	
 	
